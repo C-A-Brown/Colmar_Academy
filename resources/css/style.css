@@ -131,14 +131,13 @@ header {
 .section-2b {
     width: 1500px;
     align-items: center;
-    padding-top: 24px;
+    padding-top: 32px;
 }
 
 .section-2b img{
     height: auto;
     width: 190px;
-    padding: 16px;
-       
+    padding: 16px;       
 }
 
 .inner-2b {
