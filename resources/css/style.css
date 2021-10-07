@@ -322,3 +322,12 @@ footer {
     font-size: 16px;   
     color: rgb(96,96,96);   
 }
+
+
+/*For Mobile*/
+
+@media only screen and (max-width: 480px){
+    #title, #menu-1, .section-2a, .section-3a, .outer-4c, #menu-2 {
+        display: none;
+    }
+}
