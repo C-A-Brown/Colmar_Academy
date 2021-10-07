@@ -327,7 +327,27 @@ footer {
 /*For Mobile*/
 
 @media only screen and (max-width: 480px){
-    #title, #menu-1, .section-2a, .section-3a, .outer-4c, #menu-2 {
+    #title {
+        display: none;
+    }
+
+    #menu-1 {
+        display: none;
+    }
+
+    .section-2a {
+        display: none;
+    }
+
+    .section-3a {
+        display: none;
+    }
+
+    .outer-4c {
+        display: none;
+    }
+
+    #menu-2 {
         display: none;
     }
 }
