@@ -338,11 +338,11 @@ footer {
     }
 
     .section-1 {
-        flex-direction: column;
+        display: block;
     }
 
     .section-2b {
-        flex-direction: column;
+        display: block;
     }
 
     .mobile .section-3b {
