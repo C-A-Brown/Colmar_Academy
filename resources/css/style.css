@@ -323,10 +323,23 @@ footer {
     color: rgb(96,96,96);   
 }
 
+/*For Desktop*/
+@media screen and (min-width: 800px) {
+    .mobile {
+        display: none;
+    }
+
+}
 
 /*For Mobile*/
+@media screen and (max-width: 800px) {
+    .desktop {
+        display: none;
+    }
 
-@media screen and (max-width: 600px) {
+}
+
+/*@media screen and (max-width: 800px) {
     #title {
         display: none;
     }
@@ -339,7 +352,7 @@ footer {
         display: none;
     }
 
-    .section-3a {
+    .section-3 {
         display: none;
     }
 
@@ -350,4 +363,4 @@ footer {
     #menu-2 {
         display: none;
     }
-}
+}*/
