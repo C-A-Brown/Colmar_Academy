@@ -328,13 +328,16 @@ footer {
     .mobile {
         display: none;
     }
-
 }
 
 /*For Mobile*/
 @media screen and (max-width: 800px) {
     .desktop {
         display: none;
+    }
+
+    #icons {
+        display: flex;
     }
 
     .section-1 {
@@ -345,8 +348,8 @@ footer {
         display: block;
     }
 
-    .mobile .section-3b {
+    /*.mobile .section-3b {
 
-    }
+    }*/
 
 }
