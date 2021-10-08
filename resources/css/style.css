@@ -336,20 +336,42 @@ footer {
         display: none;
     }
 
+    header {
+        height: 64px;
+    }
+
+    #logo {
+        width: 24px;
+    }
+
     #icons {
         display: flex;
+        justify-content: space-around;
     }
 
     .section-1 {
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
 
     .section-2b {
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
 
-    /*.mobile .section-3b {
+    .section-3 {
+       text-align: center; 
+       width: 100%;
+    }
 
-    }*/
+    .mobile .section-3b {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*.mobile-inner-3b {
+
+    }    
+    */
 
 }
