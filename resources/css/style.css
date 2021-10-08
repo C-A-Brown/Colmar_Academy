@@ -337,30 +337,16 @@ footer {
         display: none;
     }
 
+    .section-1 {
+        flex-direction: column;
+    }
+
+    .section-2b {
+        flex-direction: column;
+    }
+
+    .mobile .section-3b {
+
+    }
+
 }
-
-/*@media screen and (max-width: 800px) {
-    #title {
-        display: none;
-    }
-
-    #menu-1 {
-        display: none;
-    }
-
-    .section-2a {
-        display: none;
-    }
-
-    .section-3 {
-        display: none;
-    }
-
-    .outer-4c {
-        display: none;
-    }
-
-    #menu-2 {
-        display: none;
-    }
-}*/
