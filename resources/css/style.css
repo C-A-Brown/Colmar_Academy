@@ -1,6 +1,7 @@
 #html {
     font-family: 'Franklin Gothic Medium', Calibri, sans-serif;
-    color: rgb(88,88,88);    
+    color: rgb(88,88,88);
+    box-sizing: border-box;    
 }
 
 header {
@@ -132,16 +133,20 @@ header {
     width: 1500px;
     align-items: center;
     padding-top: 32px;
+    border-left: 2px solid rgb(190,190,190);
+    
 }
 
 .section-2b img{
     height: auto;
     width: 190px;
-    padding: 16px;       
+    padding: 16px;   
+      
 }
 
 .inner-2b {
     display: flex;
+    border-bottom: 2px solid rgb(190,190,190);
 }
 
 .section-2b h3{
@@ -301,6 +306,7 @@ header {
 
 footer {
     display: flex;
+    
 }
 
 #copyright{
@@ -336,42 +342,164 @@ footer {
         display: none;
     }
 
-    header {
-        height: 64px;
+    #html {
+        box-sizing: border-box; 
+        width: 300px;
     }
 
-    #logo {
-        width: 24px;
+    header {
+        width: 330px;
+    
     }
 
     #icons {
         display: flex;
-        justify-content: space-around;
+        
+    }
+
+    #icons img {
+        height: 64px;
+        padding: 8px 16px;
+        
     }
 
     .section-1 {
         display: flex;
         flex-direction: column;
+        width: 100%;
+    }
+
+    .section-1b {
+        padding-left: 16px;
+    }
+
+    #img-1 {
+        width: 90%;
+    }
+
+    .section-1b h1{
+        font-size: 48px;
+        font-weight: bold;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        padding-left: 16px;
+    }
+    
+    .section-1b h3{
+        font-size: 24px;
+        font-weight: lighter;
+        line-height: 1.5;
+        padding-left: 16px;
+        padding-bottom: 24px;
+    }
+    
+    .section-1b button{
+        display: block;
+        justify-self: center;
+        height: 24px;
+        width: 70%;
+        font-size: 36px;
+        padding-left: 16px;
+        margin-right: 16px;
+        padding-top: 16px;
+        padding-bottom: 48px;
+        color: rgb(255,255,255);
+        background-color: rgb(88,88,88);
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .section-2b {
+        width: 100%;
+        align-items: center;
+        padding-top: 32px;
+        border: none;  
+    }
+    
+    .section-2b img{
+        height: 250px;
+        width: 300px;
+        padding: 16px;       
     }
 
     .inner-2b {
         display: flex;
         flex-direction: column;
+        padding-bottom: 64px;
+    }
+
+    .section-2b h3{
+        font-size: 36px;
+        font-weight: lighter;
+        line-height: 1.5;
+        padding-left: 16px; 
+    }
+    
+    .section-2b h4{
+        font-size: 24px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        line-height: 2;
+        padding-left: 16px; 
+    }
+    
+    .section-2b h4 a{
+        font-size: 24px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        line-height: 2;
+        font-weight: bold;
+        color: rgb(51, 153, 255);
+        padding-left: 16px; 
+    }
+
+    .inner-2c {
+        background-color: rgb(255,255,255);
+        padding-bottom: 64px; 
     }
 
     .section-3 {
-       text-align: center; 
-       width: 100%;
+        text-align: center; 
+        width: 300px;
+        background-color: rgb(255,255,255);
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
-    .mobile .section-3b {
+    .section-3a h2 {
+        font-size: 36px;
+        padding-bottom: 16px;
+        margin-left: 0;
+    }
+
+    .inner-3b h3{
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 1.5;
+        background-color: rgb(190,190,190);
+        padding-top: 16px;
+        padding-bottom: 24px;
+        width: 65%;
+        border: 5px solid rgb(0, 0, 0);
+    }
+    
+    .section-3b {
         display: flex;
         flex-direction: column;
+        row-gap: 8px;
+        width: 300px;
+    }  
+    
+    .section-4a {
+        margin-top: 32px;
+        padding-bottom: 16px;
+        width: 300px;
     }
 
-    /*.mobile-inner-3b {
+    video {
+        width: 100%;
+        padding-bottom: 40px;
+    }
 
-    }    
-    */
-
+    footer {
+        padding-bottom: 16px;
+    }
 }
